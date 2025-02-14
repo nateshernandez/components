@@ -1,5 +1,5 @@
 {
-  "name": "nates-components",
+  "name": "@natescotthernandez/components",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -7,7 +7,13 @@
     "dist"
   ],
   "author": "Nate Hernandez",
-  "description": "My shared React component library using MUI.",
+  "description": "A personal React component library built with Material-UI (MUI) for reusable, styled components across projects",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nateshernandez/components.git"
+  },
+  "private": false,
   "scripts": {
     "build": "rollup --config",
     "prepublishOnly": "npm run build"
